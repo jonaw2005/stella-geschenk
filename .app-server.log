@@ -1,0 +1,5 @@
+
+> reise-swipe-geschenk@0.1.0 serve
+> node server/server.mjs
+
+Reise-Swipe-Server: http://localhost:4173/reise/
