@@ -59,6 +59,14 @@ Spätere Aktualisierung nach einem kontrollierten `git pull`:
 bash scripts/update-server.sh
 ```
 
+Favoriten und alle bisherigen Entscheidungen zurücksetzen:
+
+```bash
+bash scripts/reset-favourites.sh
+```
+
+Das Reset-Skript überschreibt ausschließlich den gemeinsamen Auswahlstand im Volume `selection-data`. Zertifikate, Deployment-Konfiguration und andere Volumes bleiben erhalten. Danach muss die App auf bereits geöffneten Geräten neu geladen werden, damit auch dort der leere Stand übernommen wird.
+
 Nützliche Befehle:
 
 ```bash
