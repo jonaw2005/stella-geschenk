@@ -1,0 +1,14 @@
+.git
+.gitignore
+.gitattributes
+.env
+.env.*
+!.env.example
+data
+dist
+node_modules
+*.log
+*.pid
+*.tsbuildinfo
+vite.config.js
+vite.config.d.ts

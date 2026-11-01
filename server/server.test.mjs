@@ -32,6 +32,12 @@ test('zeigt ohne Sitzung die Datumsabfrage', async () => {
   assert.match(await response.text(), /type="date"/)
 })
 
+test('stellt einen inhaltsfreien Healthcheck ohne Sitzung bereit', async () => {
+  const response = await fetch(`${baseUrl}/reise/health`)
+  assert.equal(response.status, 204)
+  assert.equal(await response.text(), '')
+})
+
 test('lehnt ein falsches Datum ab und akzeptiert das richtige', async () => {
   const wrong = await fetch(`${baseUrl}/reise/unlock`, { method: 'POST', body: new URLSearchParams({ date: '2000-01-01' }), redirect: 'manual' })
   assert.equal(wrong.status, 401)

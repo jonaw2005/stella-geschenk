@@ -6,8 +6,10 @@ import { fileURLToPath } from 'node:url'
 
 const root = resolve(fileURLToPath(new URL('..', import.meta.url)))
 const distDir = join(root, 'dist')
-const dataDir = join(root, 'data')
+const dataDir = resolve(process.env.DATA_DIR || join(root, 'data'))
 const stateFile = join(dataDir, 'selection-state.json')
+const destinationData = JSON.parse(await readFile(join(root, 'src', 'content', 'destinations.generated.json'), 'utf8'))
+const allowedDestinationIds = new Set(destinationData.map((destination) => destination.id))
 const port = Number(process.env.PORT || 4173)
 const host = process.env.HOST || '0.0.0.0'
 const accessDate = process.env.ACCESS_DATE || '2008-11-03'
@@ -23,7 +25,7 @@ const mimeTypes = {
 function baseHeaders(extra = {}) {
   return {
     'Cache-Control': 'no-store',
-    'Content-Security-Policy': "default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self'; base-uri 'none'; frame-ancestors 'none'; form-action 'self'",
+    'Content-Security-Policy': "default-src 'self'; img-src 'self' data: https:; style-src 'self' 'unsafe-inline'; script-src 'self'; base-uri 'none'; frame-ancestors 'none'; form-action 'self'",
     'Referrer-Policy': 'no-referrer',
     'X-Content-Type-Options': 'nosniff',
     'X-Frame-Options': 'DENY',
@@ -81,9 +83,8 @@ async function readBody(request, maxBytes = 100_000) {
 
 function validState(value) {
   if (!value || typeof value !== 'object' || !value.decisions || typeof value.decisions !== 'object' || typeof value.updatedAt !== 'string') return false
-  const allowedIds = new Set(['kos', 'malta', 'valencia', 'split-makarska', 'malaga', 'gran-canaria'])
   const allowedDecisions = new Set(['unseen', 'liked', 'passed'])
-  return Object.entries(value.decisions).every(([id, decision]) => allowedIds.has(id) && allowedDecisions.has(decision))
+  return Object.entries(value.decisions).every(([id, decision]) => allowedDestinationIds.has(id) && allowedDecisions.has(decision))
 }
 
 async function serveFile(response, filePath) {
@@ -103,7 +104,14 @@ export function createAppServer() {
   return createServer(async (request, response) => {
     try {
       const url = new URL(request.url || '/', `http://${request.headers.host || 'localhost'}`)
-      const clientKey = request.socket.remoteAddress || 'unknown'
+      const forwardedFor = request.headers['x-forwarded-for']
+      const clientKey = (Array.isArray(forwardedFor) ? forwardedFor[0] : forwardedFor)?.split(',')[0].trim()
+        || request.socket.remoteAddress
+        || 'unknown'
+
+      if (url.pathname === '/reise/health' && request.method === 'GET') {
+        return send(response, 204, '')
+      }
 
       if (url.pathname === '/reise/unlock' && request.method === 'POST') {
         const recent = (attempts.get(clientKey) || []).filter((time) => Date.now() - time < 15 * 60 * 1000)

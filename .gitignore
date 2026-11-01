@@ -1,0 +1,13 @@
+node_modules/
+dist/
+data/
+.app-server*.log
+.app-server.pid
+.preview-server*.log
+.preview-server.pid
+*.tsbuildinfo
+vite.config.js
+vite.config.d.ts
+.env
+.env.*
+!.env.example

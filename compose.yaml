@@ -1,0 +1,58 @@
+name: reise-swipe
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: reise-swipe-app
+    restart: unless-stopped
+    environment:
+      NODE_ENV: production
+      HOST: 0.0.0.0
+      PORT: 4173
+      DATA_DIR: /app/data
+      ACCESS_DATE: ${ACCESS_DATE:-2008-11-03}
+      SESSION_SECRET: ${SESSION_SECRET:?SESSION_SECRET fehlt in .env}
+    expose:
+      - "4173"
+    volumes:
+      - selection-data:/app/data
+    init: true
+    read_only: true
+    tmpfs:
+      - /tmp:rw,noexec,nosuid,size=16m
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    logging:
+      driver: local
+
+  caddy:
+    image: caddy:2-alpine
+    container_name: reise-swipe-caddy
+    restart: unless-stopped
+    depends_on:
+      app:
+        condition: service_healthy
+    environment:
+      SITE_ADDRESS: ${SITE_ADDRESS:?SITE_ADDRESS fehlt in .env}
+      EMAIL: ${EMAIL:?EMAIL fehlt in .env}
+    ports:
+      - "80:80"
+      - "443:443"
+      - "443:443/udp"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy-data:/data
+      - caddy-config:/config
+    security_opt:
+      - no-new-privileges:true
+    logging:
+      driver: local
+
+volumes:
+  selection-data:
+  caddy-data:
+  caddy-config:

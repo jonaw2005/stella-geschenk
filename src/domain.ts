@@ -7,10 +7,16 @@ export interface Destination {
   teaser: string
   description: string
   tags: string[]
-  images: { src: string; alt: string }[]
-  seaIdeas: string[]
-  cultureIdeas: string[]
+  duration: string
+  travelTime: string
+  originNote: string
+  images: { src: string; alt: string; sourceUrl: string; label: string; kind: 'place' | 'accommodation' }[]
+  activities: string[]
+  accommodations: { label: string; text: string; url: string | null }[]
+  foodSpots: { label: string; text: string; url: string | null }[]
   planningNote: string
+  budgetNote: string
+  officialUrl: string | null
 }
 
 export interface SelectionState {
