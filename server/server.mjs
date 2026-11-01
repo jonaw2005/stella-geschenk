@@ -13,7 +13,8 @@ const allowedDestinationIds = new Set(destinationData.map((destination) => desti
 const port = Number(process.env.PORT || 4173)
 const host = process.env.HOST || '0.0.0.0'
 const accessDate = process.env.ACCESS_DATE || '2008-11-03'
-const sessionSecret = process.env.SESSION_SECRET || 'lokale-reise-swipe-entwicklung-2026'
+const sessionSecret = process.env.SESSION_SECRET || (process.env.NODE_ENV === 'production' ? '' : 'lokale-reise-swipe-entwicklung-2026')
+if (!sessionSecret) throw new Error('SESSION_SECRET muss in der Produktionsumgebung gesetzt sein.')
 const sessionMaxAgeSeconds = 60 * 60 * 24 * 180
 const attempts = new Map()
 
@@ -67,7 +68,7 @@ function loginPage(error = '') {
   const message = error ? `<p class="error" role="alert">${error}</p>` : ''
   return `<!doctype html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Geschenk öffnen</title><style>
   :root{font-family:Inter,Avenir,"Segoe UI",system-ui,sans-serif;color:#112c3e;background:#f8f1e5}*{box-sizing:border-box}body{margin:0;min-height:100vh;display:grid;place-items:center;padding:24px;background:radial-gradient(circle at 85% 10%,#f3cbb5 0,transparent 30%),#f8f1e5}.card{width:min(100%,430px);background:#fffdf8;border:1px solid rgba(17,44,62,.12);border-radius:28px;padding:36px 28px;box-shadow:0 22px 55px rgba(28,50,56,.13);text-align:center}.mark{width:62px;height:62px;margin:auto;display:grid;place-items:center;border-radius:50%;background:#e66552;color:#fff;font:italic 700 1.8rem Georgia,serif;transform:rotate(-5deg)}.eyebrow{margin-top:22px;color:#c94d3b;font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;font-weight:800}h1{font:600 2.5rem/1.05 Georgia,serif;margin:8px 0 14px}p{color:#647273;line-height:1.55}label{display:block;text-align:left;font-weight:700;margin:26px 0 8px}input{width:100%;min-height:52px;border:1px solid #9ba7a5;border-radius:14px;padding:10px 14px;font-size:1rem;background:#fff}input:focus{outline:3px solid #087f8c;outline-offset:2px}button{width:100%;min-height:54px;margin-top:16px;border:0;border-radius:999px;background:#e66552;color:white;font-weight:800;cursor:pointer}.hint{font-size:.75rem}.error{padding:10px;border-radius:10px;background:#f9dfd8;color:#8f3028;font-weight:700}
-  </style></head><body><main class="card"><div class="mark">W</div><div class="eyebrow">Nur für dich</div><h1>Dein Geschenk wartet</h1><p>Gib das besondere Datum ein, um unser nächstes Abenteuer zu öffnen.</p>${message}<form method="post" action="/reise/unlock"><label for="date">Datum</label><input id="date" name="date" type="date" required autocomplete="bday"><button type="submit">Geschenk öffnen</button></form><p class="hint">Der Zugang bleibt auf diesem Gerät gespeichert.</p></main></body></html>`
+  </style></head><body><main class="card"><div class="mark">W</div><div class="eyebrow">Nur für dich</div><h1>Dein Geschenk wartet</h1><p>Gib das besondere Datum ein, um unser nächstes Abenteuer zu öffnen.</p>${message}<form method="post" action="/unlock"><label for="date">Datum</label><input id="date" name="date" type="date" required autocomplete="bday"><button type="submit">Geschenk öffnen</button></form><p class="hint">Der Zugang bleibt auf diesem Gerät gespeichert.</p></main></body></html>`
 }
 
 async function readBody(request, maxBytes = 100_000) {
@@ -109,11 +110,16 @@ export function createAppServer() {
         || request.socket.remoteAddress
         || 'unknown'
 
-      if (url.pathname === '/reise/health' && request.method === 'GET') {
+      if (url.pathname === '/health' && request.method === 'GET') {
         return send(response, 204, '')
       }
 
-      if (url.pathname === '/reise/unlock' && request.method === 'POST') {
+      if (url.pathname === '/reise' || url.pathname === '/reise/') {
+        response.writeHead(308, baseHeaders({ Location: '/' }))
+        return response.end()
+      }
+
+      if (url.pathname === '/unlock' && request.method === 'POST') {
         const recent = (attempts.get(clientKey) || []).filter((time) => Date.now() - time < 15 * 60 * 1000)
         if (recent.length >= 10) return send(response, 429, loginPage('Zu viele Versuche. Bitte warte einige Minuten.'), { 'Content-Type': 'text/html; charset=utf-8' })
         const form = new URLSearchParams(await readBody(request))
@@ -124,18 +130,18 @@ export function createAppServer() {
         attempts.delete(clientKey)
         const secure = process.env.NODE_ENV === 'production' ? '; Secure' : ''
         response.writeHead(303, baseHeaders({
-          Location: '/reise/',
-          'Set-Cookie': `reise_session=${createSessionToken()}; Path=/reise; HttpOnly; SameSite=Strict; Max-Age=${sessionMaxAgeSeconds}${secure}`,
+          Location: '/',
+          'Set-Cookie': `reise_session=${createSessionToken()}; Path=/; HttpOnly; SameSite=Strict; Max-Age=${sessionMaxAgeSeconds}${secure}`,
         }))
         return response.end()
       }
 
       if (!isValidSession(request)) {
-        if (url.pathname.startsWith('/reise/api/')) return send(response, 401, JSON.stringify({ error: 'Nicht freigeschaltet' }), { 'Content-Type': 'application/json; charset=utf-8' })
+        if (url.pathname.startsWith('/api/')) return send(response, 401, JSON.stringify({ error: 'Nicht freigeschaltet' }), { 'Content-Type': 'application/json; charset=utf-8' })
         return send(response, 200, loginPage(), { 'Content-Type': 'text/html; charset=utf-8' })
       }
 
-      if (url.pathname === '/reise/api/state') {
+      if (url.pathname === '/api/state') {
         if (request.method === 'GET') {
           try { return send(response, 200, await readFile(stateFile), { 'Content-Type': 'application/json; charset=utf-8' }) }
           catch { return send(response, 404, JSON.stringify({ error: 'Noch kein Stand gespeichert' }), { 'Content-Type': 'application/json; charset=utf-8' }) }
@@ -156,13 +162,9 @@ export function createAppServer() {
         return send(response, 405, 'Method Not Allowed', { Allow: 'GET, PUT, DELETE' })
       }
 
-      if (url.pathname === '/' || url.pathname === '/reise' || url.pathname === '/reise/') return serveFile(response, join(distDir, 'index.html'))
-      if (url.pathname.startsWith('/reise/')) {
-        const relative = normalize(url.pathname.slice('/reise/'.length)).replace(/^(\.\.[/\\])+/, '')
-        return serveFile(response, join(distDir, relative))
-      }
-      response.writeHead(302, baseHeaders({ Location: '/reise/' }))
-      response.end()
+      if (url.pathname === '/') return serveFile(response, join(distDir, 'index.html'))
+      const relative = normalize(url.pathname.slice(1)).replace(/^(\.\.[/\\])+/, '')
+      return serveFile(response, join(distDir, relative))
     } catch (error) {
       console.error(error)
       send(response, 500, 'Interner Serverfehler', { 'Content-Type': 'text/plain; charset=utf-8' })
@@ -172,5 +174,5 @@ export function createAppServer() {
 
 if (process.argv[1] === fileURLToPath(import.meta.url)) {
   const server = createAppServer()
-  server.listen(port, host, () => console.log(`Reise-Swipe-Server: http://localhost:${port}/reise/`))
+  server.listen(port, host, () => console.log(`Reise-Swipe-Server: http://localhost:${port}/`))
 }

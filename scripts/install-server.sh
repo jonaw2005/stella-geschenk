@@ -139,12 +139,12 @@ if [[ "${healthy}" != "true" ]]; then
 fi
 
 "${SUDO[@]}" docker compose ps
-if ! curl --fail --silent --show-error --max-time 15 "https://${DOMAIN}/reise/health" >/dev/null; then
+if ! curl --fail --silent --show-error --max-time 15 "https://${DOMAIN}/health" >/dev/null; then
   warn "Die Container laufen, aber HTTPS ist von hier noch nicht erreichbar. Prüfe DNS, Router/NAT und Firewall für 80/443 sowie die Caddy-Logs."
 fi
 
 log "Installation abgeschlossen"
-printf '\nURL: https://%s/reise/\n' "${DOMAIN}"
+printf '\nURL: https://%s/\n' "${DOMAIN}"
 printf 'Zugangsdatum: %s\n' "${ACCESS_DATE}"
 printf 'Status: sudo docker compose ps\n'
 printf 'Logs: sudo docker compose logs -f\n'

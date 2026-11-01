@@ -81,6 +81,7 @@ const destinations = parts.map((part, index) => {
 })
 
 const ids = new Set(destinations.map((destination) => destination.id))
+const imageUrls = new Set()
 const errors = []
 if (destinations.length !== 50) errors.push(`Erwartet: 50 Ziele, gefunden: ${destinations.length}`)
 if (ids.size !== destinations.length) errors.push('Ziel-IDs sind nicht eindeutig.')
@@ -88,6 +89,17 @@ for (const destination of destinations) {
   if (destination.images.length !== 6) errors.push(`${destination.title}: ${destination.images.length} statt 6 Bilder`)
   if (!destination.activities.length) errors.push(`${destination.title}: keine Aktivitäten`)
   if (!destination.accommodations.length) errors.push(`${destination.title}: keine Unterkunft`)
+  destination.images.forEach((image, index) => {
+    const prefix = `${destination.title}, Bild ${index + 1}`
+    if (!image.alt || !image.label || !image.sourceUrl || !image.kind) errors.push(`${prefix}: unvollständige Bildmetadaten`)
+    if (!image.src.startsWith('https://')) errors.push(`${prefix}: Bild-URL muss HTTPS verwenden`)
+    if (!image.sourceUrl.startsWith('https://')) errors.push(`${prefix}: Quellen-URL muss HTTPS verwenden`)
+    if (imageUrls.has(image.src)) errors.push(`${prefix}: Bild-URL wird mehrfach verwendet`)
+    imageUrls.add(image.src)
+  })
+  destination.accommodations.forEach((item) => {
+    if (item.url && !item.url.startsWith('https://')) errors.push(`${destination.title}: Unterkunfts-URL muss HTTPS verwenden`)
+  })
 }
 if (errors.length) throw new Error(errors.join('\n'))
 

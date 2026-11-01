@@ -1,4 +1,4 @@
-# Reise-Swipe-Geschenk – erste Version
+# Reise-Swipe-Geschenk
 
 Mobile React-Anwendung für einen persönlichen Reise-Gutschein. Die Anwendung enthält die Begrüßung, 50 datengetriebene Reiseziele, sechs geordnete Bildreferenzen je Ziel, Swipe/Buttons, Aktivitäten und Unterkunft direkt in der scrollbaren Karte, Details, Fortschritt, Rückgängig, Favoriten sowie lokale und serverseitige Speicherung.
 
@@ -9,7 +9,7 @@ npm install
 npm run dev
 ```
 
-Die lokale Vite-URL endet wegen des späteren Hosting-Pfads auf `/reise/`.
+Die Anwendung wird lokal und im Deployment direkt unter `/` bereitgestellt.
 
 ## Docker-Deployment auf Arch Linux
 
@@ -48,7 +48,7 @@ bash scripts/install-server.sh \
 Die öffentliche URL lautet anschließend:
 
 ```text
-https://stellas-reiseplanung.de/reise/
+https://stellas-reiseplanung.de/
 ```
 
 `--domain` bleibt als optionale Überschreibung verfügbar, falls die Domain später geändert werden soll.

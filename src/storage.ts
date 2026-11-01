@@ -1,7 +1,7 @@
 import type { SelectionState } from './domain'
 
 const STORAGE_KEY = 'reise-swipe:18-geburtstag:state'
-const STATE_ENDPOINT = '/reise/api/state'
+const STATE_ENDPOINT = '/api/state'
 
 function isSelectionState(value: unknown): value is SelectionState {
   if (!value || typeof value !== 'object') return false

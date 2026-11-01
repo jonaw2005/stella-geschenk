@@ -98,7 +98,7 @@ export function App() {
   }
 
   const reset = () => {
-    if (!window.confirm('Möchtest du wirklich alle Bewertungen auf diesem Gerät und dem Geschenk-Server löschen?')) return
+    if (!window.confirm('Möchtest du wirklich alle Bewertungen löschen?')) return
     const next = createInitialState(destinations.map((destination) => destination.id))
     clearState()
     void clearServerState().catch(() => setServerSyncError(true))
@@ -117,7 +117,7 @@ export function App() {
     <div className="app-shell">
       <a className="skip-link" href="#main">Zum Hauptinhalt</a>
       {!storageAvailable && <div className="storage-warning">Nur für diesen geöffneten Tab gespeichert.</div>}
-      {serverSyncError && <div className="storage-warning">Server gerade nicht erreichbar – Änderungen bleiben zunächst auf diesem Gerät gespeichert.</div>}
+      {serverSyncError && <div className="storage-warning">Deine Auswahl konnte gerade nicht online gespeichert werden. Sie bleibt zunächst auf diesem Gerät erhalten.</div>}
       <div className="ambient ambient-one" />
       <div className="ambient ambient-two" />
       <header className="topbar">
@@ -301,8 +301,8 @@ function SwipeCard({ destination, onDecision }: { destination: Destination; onDe
               alt={destination.images[imageIndex].alt}
               draggable="false"
               onError={(event) => {
-                if (!event.currentTarget.src.endsWith('/reise/images/image-fallback.svg')) {
-                  event.currentTarget.src = '/reise/images/image-fallback.svg'
+                if (!event.currentTarget.src.endsWith('/images/image-fallback.svg')) {
+                  event.currentTarget.src = '/images/image-fallback.svg'
                   event.currentTarget.alt = `Bild von ${destination.title} konnte nicht geladen werden.`
                 }
               }}
@@ -375,7 +375,7 @@ function DetailDialog({ destination, onClose }: { destination: Destination; onCl
     <div className="dialog-backdrop" role="presentation" onMouseDown={(event) => event.target === event.currentTarget && onClose()}>
       <section className="detail-dialog" role="dialog" aria-modal="true" aria-labelledby="detail-title">
         <button ref={closeRef} className="dialog-close" onClick={onClose} aria-label="Details schließen"><Icon name="close" /></button>
-        <img src={destination.images[0].src} alt="" onError={(event) => { event.currentTarget.src = '/reise/images/image-fallback.svg' }} />
+        <img src={destination.images[0].src} alt="" onError={(event) => { event.currentTarget.src = '/images/image-fallback.svg' }} />
         <div className="dialog-body">
           <span className="eyebrow">{destination.country}</span><h2 id="detail-title">{destination.title}</h2>
           <p>{destination.description}</p>
@@ -394,15 +394,15 @@ function Favorites({ items, onDiscover, onRemove }: { items: Destination[]; onDi
   return (
     <section className="list-page page-enter" aria-labelledby="favorites-title">
       <span className="eyebrow">Deine Auswahl</span><h1 id="favorites-title">Favoriten <em>{items.length}</em></h1>
-      <p className="page-intro">Hier sammeln sich alle Ziele, die dir gefallen. Vergleichen und Wunschbestätigung folgen in der nächsten Ausbaustufe.</p>
+      <p className="page-intro">Hier sammeln sich alle Ziele, die dir gefallen. So könnt ihr eure Favoriten später in Ruhe vergleichen und gemeinsam auswählen.</p>
       {items.length === 0 ? <div className="empty-state"><span>♡</span><h2>Noch kein Ziel dabei?</h2><p>Entdecke die 50 Reiseideen und markiere, was sich gut anfühlt.</p><button className="primary-button" onClick={onDiscover}>Weiter entdecken</button></div> :
-        <div className="favorite-list">{items.map((item) => <article className="favorite-card" key={item.id}><img src={item.images[0].src} alt="" onError={(event) => { event.currentTarget.src = '/reise/images/image-fallback.svg' }}/><div><span>{item.country}</span><h2>{item.title}</h2><p>{item.teaser}</p><button onClick={() => onRemove(item.id)}>Als „eher nicht“ markieren</button></div></article>)}</div>}
+        <div className="favorite-list">{items.map((item) => <article className="favorite-card" key={item.id}><img src={item.images[0].src} alt="" onError={(event) => { event.currentTarget.src = '/images/image-fallback.svg' }}/><div><span>{item.country}</span><h2>{item.title}</h2><p>{item.teaser}</p><button onClick={() => onRemove(item.id)}>Als „eher nicht“ markieren</button></div></article>)}</div>}
     </section>
   )
 }
 
 function Info({ onReset }: { onReset: () => void }) {
-  return <section className="list-page info-page page-enter" aria-labelledby="info-title"><span className="eyebrow">Gut zu wissen</span><h1 id="info-title">Über dein Geschenk</h1><div className="info-block"><h2>So funktioniert es</h2><p>Entdecke 50 Reiseideen. Wische im Bild nach rechts für „Gefällt mir“ oder nach links für „Eher nicht“. Tippe links oder rechts ins Bild, um durch die sechs Motive zu wechseln. Aktivitäten und Unterkunft stehen direkt unter den Bildern.</p></div><div className="info-block"><h2>Der Reiserahmen</h2><p>Geplant ist eine Reise für uns zwei. Das Gesamtbudget beträgt höchstens 2.000 €. Dauer und Reisezeit sind redaktionelle Vorschläge; Termine, Anreise, Unterkunft und vollständige Kosten prüfen und planen wir später gemeinsam.</p></div><div className="info-block"><h2>Bilder und Quellen</h2><p>Die aktuelle lokale Vorschau lädt die in der Katalogdatei genannten externen Bildlinks in ihrer festgelegten Reihenfolge. Diese Verlinkungen sind keine geklärten Bildlizenzen. Vor einer öffentlichen Veröffentlichung müssen Nutzungsrechte geprüft und freigegebene Bilder lokal eingebunden werden.</p></div><div className="info-block"><h2>Speicherung & Datenschutz</h2><p>Deine Auswahl wird auf dem privaten Geschenk-Server gespeichert und zusätzlich in diesem Browser zwischengespeichert. So kann sie beim späteren Öffnen wieder geladen werden. Es erfolgt keine automatische Buchung oder Weitergabe an Reiseanbieter.</p></div><button className="danger-button" onClick={onReset}>Alle meine Auswahldaten löschen</button></section>
+  return <section className="list-page info-page page-enter" aria-labelledby="info-title"><span className="eyebrow">Gut zu wissen</span><h1 id="info-title">Über dein Geschenk</h1><div className="info-block"><h2>So funktioniert es</h2><p>Entdecke 50 Reiseideen. Wische im Bild nach rechts für „Gefällt mir“ oder nach links für „Eher nicht“. Tippe links oder rechts ins Bild, um durch die sechs Motive zu wechseln. Aktivitäten und Unterkunft stehen direkt unter den Bildern.</p></div><div className="info-block"><h2>Der Reiserahmen</h2><p>Geplant ist eine Reise für uns zwei. Das Gesamtbudget beträgt höchstens 2.000 €. Dauer und Reisezeit sind erste Vorschläge; Termine, Anreise, Unterkunft und vollständige Kosten planen wir später gemeinsam.</p></div><div className="info-block"><h2>Bilder und Quellen</h2><p>Die Bilder zeigen Eindrücke der Reiseziele und ausgewählter Unterkünfte. Die jeweilige Bildquelle ist bei den Motiven hinterlegt. Falls ein externer Bildanbieter vorübergehend nicht erreichbar ist, erscheint ein neutrales Ersatzbild.</p></div><div className="info-block"><h2>Speicherung & Datenschutz</h2><p>Deine Auswahl wird geschützt gespeichert und zusätzlich in diesem Browser zwischengespeichert. So kann sie beim späteren Öffnen wieder geladen werden. Es erfolgt keine automatische Buchung oder Weitergabe an Reiseanbieter.</p></div><button className="danger-button" onClick={onReset}>Alle meine Auswahldaten löschen</button></section>
 }
 
 function NavButton({ active, icon, label, badge, onClick }: { active: boolean; icon: 'compass' | 'heart' | 'info'; label: string; badge?: number; onClick: () => void }) {

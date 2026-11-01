@@ -104,9 +104,9 @@ Für euch, wenn Strandtage, griechische Altstadt und kleine Ausflüge zusammenge
 1. [Gegend - Foto 1](https://www.mediteraneo.rs/pic/MEDITERANEO_Kos_8.jpg) · [Bildquelle](https://mediteraneo.rs/index.php?action=aranzman&id=2&tit=KOS)
 2. [Gegend - Foto 2](https://www.letsferry.com/_next/image?q=75&url=https%3A%2F%2Fstorage.googleapis.com%2Fletsferry-public%2Fassets%2Fimages%2Fdestinations%2FKOS-OLD-PORT-C.jpg&w=1920) · [Bildquelle](https://www.letsferry.com/ferry-routes/greece/athens/kos-all-ports-athens-all-ports-gr)
 3. [Gegend - Foto 3](https://www.gelsominohotel.com/media/dhimske0/kos_town_center.jpg?height=840&rnd=133033917871330000&width=760) · [Bildquelle](https://www.gelsominohotel.com/location-island-kos)
-4. [Gegend - Foto 4](https://www.internationalairportreview.com/wp-content/uploads/kos.jpg) · [Bildquelle](https://www.internationalairportreview.com/airport/kos-island-international-airport-kgs/)
+4. [Gegend - Foto 4](https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Kos-Kos_city-old_town-christmas_tree-01ESD.jpg/1920px-Kos-Kos_city-old_town-christmas_tree-01ESD.jpg) · [Bildquelle](https://commons.wikimedia.org/w/index.php?curid=86374615)
 5. [Gegend - Foto 5](https://s3-eu-west-1.amazonaws.com/jet2blog/production/_900x506_crop_center-center_none/KGS_KOS_TOWN_0813_48_PS_RGB-136-DPI-For-Web.jpg) · [Bildquelle](https://blog.jet2.com/three-greek-islands-to-get-to-know)
-6. [Unterkunft - Foto 6 (Koala Hotel)](https://www.koalahotel.gr/elegance/images/hotelsitems/4/gallery/image-lounge-terrace-3-1739877266.webp) · [Bildquelle](https://www.koalahotel.gr/hotel-4-lounge-terrace)
+6. [Gegend - Foto 6](https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Kos-Pyli-Pyli_city-old_water_spring-town_sign-01ASD.jpg/1920px-Kos-Pyli-Pyli_city-old_water_spring-town_sign-01ASD.jpg) · [Bildquelle](https://commons.wikimedia.org/w/index.php?curid=85332746)
 
 ### Planung und Budget
 
@@ -155,7 +155,7 @@ Kompakte Inselreise mit befestigten Städten, Meerblicken und kurzen Kulturstopp
 3. [Gegend - Foto 3](https://www.maltaexcursion.com/uploads/media/product/500/article_media/20260320_123604_f57386.png) · [Bildquelle](https://www.maltaexcursion.com/en/full-day-tour-to-mosta-crafts-village-mdina-and-valletta)
 4. [Gegend - Foto 4](https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/d8/0f/bf/caption.jpg?h=446&s=1&w=674) · [Bildquelle](https://www.tripadvisor.co.uk/AttractionProductReview-g190320-d19282632-Mdina_walking_tour-Island_of_Malta.html)
 5. [Gegend - Foto 5](https://static.fly4free.pl/s/2016/10/9/9b95a47d75f1c61ca450ced288a5b540.jpeg) · [Bildquelle](https://spolecznosc.fly4free.pl/blog/2552/sztormowa-malta/)
-6. [Unterkunft - Foto 6 (Osborne Hotel)](https://z.cdrst.com/foto/hotel-sf/db9f/granderesp/osborne-hotel-habitacion-11f78516.jpg) · [Bildquelle](https://reserving.com/hotels/europe/malta/malta-xlokk/valletta/osborne-hotel)
+6. [Gegend - Foto 6](https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/City_Gate%2C_Valletta_002.jpg/1920px-City_Gate%2C_Valletta_002.jpg) · [Bildquelle](https://commons.wikimedia.org/w/index.php?curid=94608646)
 
 ### Planung und Budget
 
@@ -250,9 +250,9 @@ Split verbindet römische Geschichte mit Hafenleben. Makarska ergänzt Strände 
 
 1. [Gegend - Foto 1](https://www.cheapridetransfers.com/uploads/images/b5954ad10a5d6fa53080f61277bc589e.jpg) · [Bildquelle](https://www.cheapridetransfers.com/hr/izleti/izlet-split)
 2. [Gegend - Foto 2](https://cdn.wdgtsrc.com/b2d0e858fc95b348c0050866a9cf90718976860/split1.webp) · [Bildquelle](https://nexttrip.com.ua/horvatiya-4-dni-na-mori)
-3. [Gegend - Foto 3](https://ds.pressmind.io/images/b8d16dd9be6bb480d7a2b45b562cfe1e.jpg) · [Bildquelle](https://www.schuy-reisen.de/reise/kroatiens-dalmatinische-kueste/)
+3. [Gegend - Foto 3](https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Panorama-Split.jpg/1920px-Panorama-Split.jpg) · [Bildquelle](https://commons.wikimedia.org/w/index.php?curid=116619512)
 4. [Gegend - Foto 4](https://www.sharrtravel.com/file/repository/makarska_costa_hd.jpg) · [Bildquelle](https://www.sharrtravel.com/oferta-3dite/)
-5. [Gegend - Foto 5](https://www.jet2holidays.com/destinations/croatia/split-and-dalmatian-coast/media_14f4ea39c5fe632cd1e453199d8449cb1b2427302.jpg?format=pjpg&optimize=medium&width=1200) · [Bildquelle](https://www.jet2holidays.com/destinations/croatia/split-and-dalmatian-coast/makarska)
+5. [Gegend - Foto 5](https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Nugal_beach_MakarskaTucepi.jpg/1920px-Nugal_beach_MakarskaTucepi.jpg) · [Bildquelle](https://commons.wikimedia.org/w/index.php?curid=5742716)
 6. [Unterkunft - Foto 6 (Hotel Marul in Split)](https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/e4/44/46/caption.jpg?h=1600&s=1&w=1600) · [Bildquelle](https://www.tripadvisor.com/Hotel_Review-g295370-d4889504-Reviews-Hotel_Marul-Split_Split_Dalmatia_County_Dalmatia.html)
 
 ### Planung und Budget
@@ -448,7 +448,7 @@ Eine kompakte Stadt mit bunten Häusern am Douro, Brücken und guten Möglichkei
 2. [Gegend - Foto 2](https://images.squarespace-cdn.com/content/v1/5daf73c95bc9a966f3eb2b5e/1571790200430-UJV7DNXHZTOFE1WRFBHU/porto%2Bdrone%2C%2Bdroning%2Bportugal%2C%2Bbest%2Bof%2Bportugal%2C%2Bcities%2Bof%2Bportugal%2Bby%2Bdrone%2C%2Baerial%2Bphoto%2Bof%2Bporto%2C%2Bporto%2Bdroneography) · [Bildquelle](https://www.mrandmrsadventure.com/blog/2018/10/12/vanlife-portugal-map)
 3. [Gegend - Foto 3](https://travelsites.com/wp-content/uploads/2025/08/shutterstock_2482943913.jpg) · [Bildquelle](https://travelsites.com/blog/cool-neighborhoods-to-explore-in-porto/)
 4. [Gegend - Foto 4](https://s.yimg.com/lo/mysterio/api/DD8961306150112A0E762F8AE3D5579E7B0D9091A8C69EBE57C6E4AC42715C48/subgraphmysterio/resizefit_w960_h640%3Bquality_80%3Bformat_webp/https%3A/media.zenfs.com/en/aol_stacker_articles_387/97fde13b67af24a7dfa1eca116b73bd9) · [Bildquelle](https://www.aol.com/finance/10-hidden-cities-where-career-180006906.html)
-5. [Gegend - Foto 5](https://www.arcgis.com/sharing/rest/content/items/21e3fcec6721481d953633638bc87131/info/thumbnail/ago_downloaded.jpg?w=800) · [Bildquelle](https://storymaps.arcgis.com/stories/21e3fcec6721481d953633638bc87131)
+5. [Gegend - Foto 5](https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Rabelo_boats_and_Ribeira_seen_from_Cais_de_Gaia%2C_20250605_1623_9879.jpg/1920px-Rabelo_boats_and_Ribeira_seen_from_Cais_de_Gaia%2C_20250605_1623_9879.jpg) · [Bildquelle](https://commons.wikimedia.org/w/index.php?curid=193115530)
 6. [Unterkunft - Foto 6 (Moov Hotel Porto Centro)](https://images.trvl-media.com/lodging/37000000/36340000/36330100/36330067/07867710.jpg?h=800&impolicy=fcrop&quality=medium&w=1200) · [Bildquelle](https://www.expedia.com/Porto-Hotels-Moov-Hotel-Porto-Centro.h36330067.Hotel-Information)
 
 ### Planung und Budget
@@ -591,7 +591,7 @@ Mehr als Strandurlaub: Palma liefert Kultur und Essen, die Insel kleine Orte und
 
 ### Sechs Bildlinks
 
-1. [Gegend - Foto 1](https://www.navegamediterraneo.com/_next/image?q=75&url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fnavega-mediterraneo.appspot.com%2Fo%2FlandingPages%252Fdestinations%252Fbalearics%252Fpalma-pano.jpg%3Falt%3Dmedia%26token%3D08c1ef6c-5e43-478a-82df-6d8a18a94498&w=3840) · [Bildquelle](https://www.navegamediterraneo.com/destinos/mallorca)
+1. [Gegend - Foto 1](https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Kathedrale_von_Palma_II.jpg/1920px-Kathedrale_von_Palma_II.jpg) · [Bildquelle](https://commons.wikimedia.org/w/index.php?curid=50020681)
 2. [Gegend - Foto 2](https://images.trvl-media.com/place/553248635976399657/d7770f6a-df2c-40e5-acd0-a649cf135ac5.jpg) · [Bildquelle](https://www.expedia.com/Plaza-Espana-Palma-de-Mallorca-Old-Town.d553248635492937755.Vacation-Attraction)
 3. [Gegend - Foto 3](https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/fa/54/70/caption.jpg?h=1100&s=1&w=1100) · [Bildquelle](https://www.tripadvisor.co.uk/Restaurant_Review-g187463-d1568432-Reviews-Il_Paradiso-Palma_de_Mallorca_Majorca_Balearic_Islands.html)
 4. [Gegend - Foto 4](https://estaticos-cdn.prensaiberica.es/clip/06ed2f63-7d6a-4e30-9246-88de836e9966_media-libre-aspect-ratio_default_0.jpg) · [Bildquelle](https://www.mallorcazeitung.es/boulevard/travel/2023/08/31/16-schoensten-aussichtspunkte-palma-91286146.html)
@@ -987,7 +987,7 @@ Altstadt, Hafenmotive und ein Tag am Ostseestrand in derselben Reise. Die Werftu
 2. [Gegend - Foto 2](https://d1bvpoagx8hqbg.cloudfront.net/originals/erasmus-experience-gdansk-poland-alvaro-9596d6873417a668b658f318f62dd36f.jpg) · [Bildquelle](https://erasmusu.com/en/erasmus-gdansk/erasmus-experiences/erasmus-experience-in-gdansk-poland-by-alvaro-496583)
 3. [Gegend - Foto 3](https://www.bru-system.be/media/cache/destinations_slider_image/uploads/location-images/2025-12/gdansk-1920x1080-02.png) · [Bildquelle](https://www.brusselsairport.be/en/passengers/destination/gdansk)
 4. [Gegend - Foto 4](https://i.wpimg.pl/c/1200x900/i.szalas.hu/hotels/1444041/original/37800921.jpg) · [Bildquelle](https://www.nocowanie.pl/rezerwuj/1444041-kamieniczka-palladium-gdansk/)
-5. [Gegend - Foto 5](https://cf.bstatic.com/xdata/images/hotel/max1024x768/757458544.jpg?k=cd2d55759ede55c13a140cba003ee7b67ae283c6b754719cd93c6b119dbf332a&o=) · [Bildquelle](https://www.booking.com/hotel/pl/the-pearl-on-the-motlawa-river.en-gb.html)
+5. [Gegend - Foto 5](https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Gdansk_2023_05.jpg/1920px-Gdansk_2023_05.jpg) · [Bildquelle](https://commons.wikimedia.org/w/index.php?curid=143021146)
 6. [Unterkunft - Foto 6 (Stay inn Gdańsk)](https://www.stayinngdansk.com/templates/img/galeria/pokoje/pokoje9.jpg) · [Bildquelle](https://www.stayinngdansk.com/en/galeria.html)
 
 ### Planung und Budget
@@ -1082,7 +1082,7 @@ Ein nahes Ziel mit großer Altstadt, Aussichtspunkten und vielen Möglichkeiten 
 ### Sechs Bildlinks
 
 1. [Gegend - Foto 1](https://d37ospu41g49bj.cloudfront.net/angeleschico/1350/0731a7/-----/wmrk/png/sw-hd/8125_1770975175-12599940_618.jpg) · [Bildquelle](https://angeleschico.com/en/galerias/ciudad)
-2. [Gegend - Foto 2](https://p16-lemon8-va-sign.tiktokcdn-us.com/tos-maliva-v-ac5634-us/ogQfgAFA2ukfPMGbjLPlen1u4uDWzIAAks77Ie~tplv-tej9nj120t-text-logo%3AQG11ZmFzc2Ez%3Aq75.jpeg?lk3s=c7f08e79&source=lemon8_seo&x-expires=1776988800&x-signature=6j6%2F05N3HGCPTGUtX7GceKNJ1I0%3D) · [Bildquelle](https://www.lemon8-app.com/%40mufassa3/7421893634146091525?region=us)
+2. [Gegend - Foto 2](https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/North_view_of_Charles_Bridge_from_M%C3%A1nes%C5%AFv_most%2C_Prague_20160808_1.jpg/1920px-North_view_of_Charles_Bridge_from_M%C3%A1nes%C5%AFv_most%2C_Prague_20160808_1.jpg) · [Bildquelle](https://commons.wikimedia.org/w/index.php?curid=51022139)
 3. [Gegend - Foto 3](https://www.travelworkz.com/_next/image?q=75&url=https%3A%2F%2Fcdn.yunolabs.com%2Ftravelworkz%2Fmedia%2FPrague.webp&w=3840) · [Bildquelle](https://www.travelworkz.com/en/destinations/germany-austria-czech-republic)
 4. [Gegend - Foto 4](https://blaguss.com/fileadmin/redaktion/bilder/06_Reisen/Gruppenrundreisen/Prag/Prag_3.jpg) · [Bildquelle](https://blaguss.com/reiseangebot/details/prag-karlsbruecke-prager-burg-veitsdom)
 5. [Gegend - Foto 5](https://img.pac.ru/landmarks/353298/big/43B7D3A37F00010125BE95218681A55F.jpg) · [Bildquelle](https://www.pac.ru/guide/czech-republic/prague/landmarks/charles-bridge/)
@@ -1527,7 +1527,7 @@ Lebendige Straßen, besondere Küche und antike Geschichte in erreichbarer Nähe
 3. [Gegend - Foto 3](https://www.pelago.com/img/products/IT-Italy/6-hours-naples-city-centre-and-underground-tour/9f0fe67a-3a3a-441b-a30a-8a8c4ed5ad2e_6-hours-naples-city-centre-and-underground-tour.jpg) · [Bildquelle](https://www.pelago.com/en/activity/pxdp0fx12-6-hours-naples-city-centre-and-underground-tour-naples/)
 4. [Gegend - Foto 4](https://tourismmedia.italia.it/is/image/mitur/20210310140608-napoli-shutterstock-1539515609?fit=constrain%2C1&fmt=webp&hei=500&wid=800) · [Bildquelle](https://www.italia.it/it/campania/napoli/cosa-fare/napoli-centro-storico)
 5. [Gegend - Foto 5](https://cdn.4travel.jp/img/thumbnails/imk/travelogue_pict/29/10/98/650x_29109859.jpg?updated_at=1369466873) · [Bildquelle](https://4travel.jp/travelogue/10774460)
-6. [Unterkunft - Foto 6 (B&B Hotel Napoli)](https://z.cdrst.com/foto/hotel-sf/11f8ad42/granderesp/foto-hotel-11f8a298.jpg) · [Bildquelle](https://reserving.com/hotels/europe/italy/campania/naples/naples/b-b-hotel-napoli)
+6. [Gegend - Foto 6](https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Naples_from_the_Castello_Sant_Elmo_with_Abbazia_San_Martino_the_port_and_the_Vesuv.jpg/1920px-Naples_from_the_Castello_Sant_Elmo_with_Abbazia_San_Martino_the_port_and_the_Vesuv.jpg) · [Bildquelle](https://commons.wikimedia.org/w/index.php?curid=54234522)
 
 ### Planung und Budget
 
@@ -1574,7 +1574,7 @@ Für eine kurze Reise mit Grachten, Museen, kleinen Läden und kulinarischen Sto
 1. [Gegend - Foto 1](https://www.ardenartgallery.com/cdn/shop/files/IMG_68262.jpg?v=1747844106) · [Bildquelle](https://www.ardenartgallery.com/products/mirror-canal)
 2. [Gegend - Foto 2](https://www.pelago.com/img/products/NL-Netherlands/a-day-in-amsterdam/5385ab64-4fea-4f6a-9776-6136214720fe_a-day-in-amsterdam-large.webp) · [Bildquelle](https://www.pelago.com/en/activity/p5zkrrrgi-a-day-in-amsterdam-amsterdam/)
 3. [Gegend - Foto 3](https://www.phoenixreisen.com/media/grafiken/kreuzfahrt/reise/mobile/1FF4B508-B2EF-E564-3CFD513384FF9800.jpg) · [Bildquelle](https://www.phoenixreisen.com/holland-und-belgien-intensiv-36-3084769-1.html?idtermin=3084773)
-4. [Gegend - Foto 4](https://flexhero.com/cache/flexhero/images-pages-work-in-nl_1200x1200_90__0-0_v2.webp) · [Bildquelle](https://flexhero.com/en/working-in-the-netherlands)
+4. [Gegend - Foto 4](https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Amsterdam_Canals_-_July_2006.jpg/1920px-Amsterdam_Canals_-_July_2006.jpg) · [Bildquelle](https://commons.wikimedia.org/w/index.php?curid=956370)
 5. [Gegend - Foto 5](https://cf.bstatic.com/xdata/images/hotel/max1024x768/541129694.jpg?k=d4fbc338d589a844d9a8a818ad0f0ae7da3c17a22a7054d48ef9c3cf8fac9e21&o=) · [Bildquelle](https://www.booking.com/hotel/nl/amsterdam-wiechmann.html)
 6. [Unterkunft - Foto 6 (Motel One Amsterdam Waterlooplein)](https://image.motel-one.com/fileadmin/dam/Hotels/Amsterdam/Amsterdam-Waterloo/Innenbereich/020-double-room-king-size-bed.jpg?fit=cover&format=jpeg&h=1760&quality=80&w=1320) · [Bildquelle](https://www.motel-one.com/en/hotels/amsterdam/hotel-amsterdam-waterlooplein/)
 
@@ -1674,7 +1674,7 @@ Ein kurzer Kulturtrip mit bekannten Orten und Zeit in einzelnen Vierteln. Gut, w
 3. [Gegend - Foto 3](https://i0.statig.com.br/bancodeimagens/9g/5s/2l/9g5s2l6yc40wis8eho8g47vo6.jpg) · [Bildquelle](https://turismo.ig.com.br/destinos-internacionais/2021-10-01/paris-franca.html.ampstories)
 4. [Gegend - Foto 4](https://i.pinimg.com/736x/59/e8/34/59e834d65700491ff7af23f0bbfdc0ba.jpg) · [Bildquelle](https://uk.pinterest.com/pin/a2-poster-streets-of-montmartre-with-sacre-coeur-basilica-in--906701337468042383/)
 5. [Gegend - Foto 5](https://i.pinimg.com/originals/df/de/df/dfdedf90645350c2bbf7204be9bb6619.jpg) · [Bildquelle](https://in.pinterest.com/pin/112449321940583154/)
-6. [Unterkunft - Foto 6 (Hôtel des Arts Bastille)](https://x.cdrst.com/foto/hotel-sf/50170/granderesp/hotel-des-arts-bastille-habitacion-121298d0.jpg) · [Bildquelle](https://reserving.com/hotels/europe/france/ile-de-france/paris/paris/hotel-des-arts-bastille)
+6. [Gegend - Foto 6](https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Eiffel_st-jacques_horz_jms.jpg/1920px-Eiffel_st-jacques_horz_jms.jpg) · [Bildquelle](https://commons.wikimedia.org/w/index.php?curid=27991577)
 
 ### Planung und Budget
 
@@ -1769,7 +1769,7 @@ Eine Stadt mit markanter Silhouette, historischen Straßen und Natur direkt vor 
 
 1. [Gegend - Foto 1](https://images.squarespace-cdn.com/content/v1/54c005cae4b07cdd0a0df89c/1473371357753-Y8AD5UBH42UWN899Z094/scotland_0009.jpg) · [Bildquelle](https://www.andyrodriguezphoto.com/blog/scotland-edinburgh-dunnottar-castle)
 2. [Gegend - Foto 2](https://www.worldmap1.com/map/united-kingdom/edinburgh/City%20of%20Edinburgh.jpg) · [Bildquelle](https://www.worldmap1.com/map/edinburgh-map)
-3. [Gegend - Foto 3](https://www.kayak.ie/rimg/himg/37/6a/67/agoda-382316-291784776-493860.jpg?crop=true&height=607&width=836) · [Bildquelle](https://www.kayak.ie/Edinburgh-Hotels-Travelodge-Edinburgh-Central-Waterloo-Place-Hotel.382316.ksp)
+3. [Gegend - Foto 3](https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Gothic_Tower_-_City_Observatory_of_Edinburgh_-_05.jpg/1920px-Gothic_Tower_-_City_Observatory_of_Edinburgh_-_05.jpg) · [Bildquelle](https://commons.wikimedia.org/w/index.php?curid=35057811)
 4. [Gegend - Foto 4](https://cdn.hometogo.net/assets/wl-blog/fa501c2e69d5705855da76d6967ea574_10672696006_c5b9afd883_z.jpg) · [Bildquelle](https://www.wimdu.it/blog/antichi-castelli-e-viste-mozzafiato-edimburgo)
 5. [Gegend - Foto 5](https://m.media-amazon.com/images/M/MV5BYzdlMzgwN2YtOTJlNi00MGI5LWFiYmItZGY4ZDU5YTkzYTEzXkEyXkFqcGc%40._V1_.jpg) · [Bildquelle](https://www.imdb.com/title/tt1917231/)
 6. [Unterkunft - Foto 6 (Motel One Edinburgh Royal)](https://foto.hrsstatic.com/fotos/0/2/800/458/80/000000/http%3A%2F%2Ffoto-origin.hrsstatic.com%2Ffoto%2Fdms%2F548902%2FVFML%2Fkyyrvogueqcw_mo_edinburgh-royal_family_one_2_s.jpg/c482d8553e1a08f10b632f35293ab3fd/1024%2C682/6/Motel_One_Edinburgh-Royal-Edinburgh-Room-6-548902.jpg) · [Bildquelle](https://www.hotel.info/en/hotel/548902)
@@ -1817,7 +1817,7 @@ Ein nahes Naturgeschenk mit wenig Anreiseaufwand. Ideal, wenn gemeinsame Zeit, W
 ### Sechs Bildlinks
 
 1. [Gegend - Foto 1](https://www.eupedia.com/images/content/saxon_switzerland-6.jpg) · [Bildquelle](https://www.eupedia.com/germany/saxon_switzerland.shtml)
-2. [Gegend - Foto 2](https://www.feline-holidays.de/Media/Feline_Holidays_DE/_Profiles/8ce764d7/821ab1c0/Sicht%20von%20Bastei%20in%20der%20S%C3%A4chsischen%20Schweiz_Depositphotos_95741210_S.jpg?v=638265735909574920) · [Bildquelle](https://www.feline-holidays.de/artikel/ferienhaus-in-sebnitz)
+2. [Gegend - Foto 2](https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Elbe_in_Saxon_Switzerland.jpg/1920px-Elbe_in_Saxon_Switzerland.jpg) · [Bildquelle](https://commons.wikimedia.org/w/index.php?curid=50450337)
 3. [Gegend - Foto 3](https://www.pti.de/images/1667890-1000x1000-nocrop.jpg) · [Bildquelle](https://www.pti.de/erzgebirge-dresden-8/)
 4. [Gegend - Foto 4](https://i.happytovisit.com/tour/scenic-bastei-bridge-with-boat-tour-lunch-from-dresden-t471547-1.jpg) · [Bildquelle](https://happytovisit.com/scenic-bastei-bridge-with-boat-tour-lunch-from-dresden/)
 5. [Gegend - Foto 5](https://andy-travel.com.ua/sites/default/files/001_241.jpg) · [Bildquelle](https://andy-travel.com.ua/saksonska-shveycariya)
@@ -1963,7 +1963,7 @@ Berge und Seen mit einer festen Basis im Ort. Für euch, wenn ihr Landschaft erl
 
 ### Sechs Bildlinks
 
-1. [Gegend - Foto 1](https://www.koenigssee.de/cdn/uploads/bergsteigerdorf-ramsau-7-thteaserimageresponsive.jpg) · [Bildquelle](https://www.koenigssee.de/themenwege-radstern)
+1. [Gegend - Foto 1](https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Ramsau_Kirche_mit_Wagendrischelhorn_2.jpg/1920px-Ramsau_Kirche_mit_Wagendrischelhorn_2.jpg) · [Bildquelle](https://commons.wikimedia.org/wiki/File:Ramsau_Kirche_mit_Wagendrischelhorn_2.jpg)
 2. [Gegend - Foto 2](https://cdn.getyourguide.com/image/format%3Dauto%2Cfit%3Dcrop%2Cgravity%3Dcenter%2Cquality%3D60%2Cwidth%3D400%2Cheight%3D265%2Cdpr%3D2/tour_img/e6d9073c6d49e1ebb9118848ec7b89f95010b99a420894f90497bbc75372050c.jpeg) · [Bildquelle](https://www.getyourguide.com/lt-lt/berchtesgadeno-nacionalinis-parkas-l161073/)
 3. [Gegend - Foto 3](https://res.cloudinary.com/adactrips/image/fetch/f_auto%2Cq_auto%2Cdpr_auto%2Cw_1488%2Cc_fill/https%3A/imxplatform-cust-adac.fsn1.your-objectstorage.com/media/berchtesgaden_koenigssee.jpg) · [Bildquelle](https://maps.adac.de/show/berchtesgaden-koenigssee)
 4. [Gegend - Foto 4](https://www.kainzierlhof.de/images/freizeit/01851796.jpg) · [Bildquelle](https://www.kainzierlhof.de/freizeit.html)
@@ -2209,7 +2209,7 @@ Für euch, wenn Wanderungen, Bergpanorama und ein belebter Ferienort zusammenpas
 ### Sechs Bildlinks
 
 1. [Gegend - Foto 1](https://nicoletteo.wordpress.com/wp-content/uploads/2012/07/zak_zakopane_tatry_wid_06048062p-1.jpg) · [Bildquelle](https://www.culturetrav.co/2012/07/09/climbing-away/)
-2. [Gegend - Foto 2](https://airial.travel/_next/image?q=75&url=https%3A%2F%2Fcoinventmediastorage.blob.core.windows.net%2Fmedia-storage-container%2Fgphoto_ChIJjQ1PcZvyFUcRCgbAgDTRdlA_0.jpg&w=3840) · [Bildquelle](https://airial.travel/attractions/poland/zakopane/guba%C5%82%C3%B3wka-ski-resort-zakopane-H9EVj0by)
+2. [Gegend - Foto 2](https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Zakopane_Gubalowka_1.jpg/1920px-Zakopane_Gubalowka_1.jpg) · [Bildquelle](https://commons.wikimedia.org/w/index.php?curid=55323741)
 3. [Gegend - Foto 3](https://imgcdn.bokun.tools/a133d455-14ff-495d-a329-7b1f5a407636.jpeg?h=1500&mode=crop&w=1500) · [Bildquelle](https://www.magnetictours.eu/tour/zakopane-tatra-mountains-one-day-tour-from-krakow)
 4. [Gegend - Foto 4](https://www.zstio2.katowice.pl/images/galerie/2025_26/2025_12_10_zakopane/zakopane_01.jpg) · [Bildquelle](https://www.zstio2.katowice.pl/index.php/wydarzenia/2025-2026r/1489-5i2-oraz-2pn-w-zakopanym)
 5. [Gegend - Foto 5](https://v.wpimg.pl/OWI0ZDg0YDYoUix3SEttI2sKeC0OEmN1PBJgZkgBfWd5SGxzUh8pPiVVKCEXX2EwO0UqJRBAYSclHzs0Dh85ZmZUMzcXXC4uZlU3JgJUYGF_CWgnAgQren4FaiVKBHZvcR04IgIGYm58A2MmU1R3Y3oBa2Ya) · [Bildquelle](https://pogoda.o2.pl/pogoda/pogoda-w-zakopanem-prognoza-na-piatek-3-kwietnia-wieczorny-przelotny-snieg-i-ochlodzenie-7270822982379744a)
@@ -2307,7 +2307,7 @@ Wasser und Bergkulisse in einer Reise: Riva eignet sich für aktive Tage mit Spa
 ### Sechs Bildlinks
 
 1. [Gegend - Foto 1](https://www.reisroutes.be/userfiles/fotos/uitzicht-op-riva-del-garda-gardameer_35007_ml.jpg) · [Bildquelle](https://www.reisroutes.be/blog/emilia-romagna/roadtrip-gardameer-emilia-romagna/)
-2. [Gegend - Foto 2](https://blogdiviaggi.com/wp-content/uploads/2015/08/Riva-del-Garda-shutterstock_115340041.jpg) · [Bildquelle](https://blogdiviaggi.com/2015/08/28/lago-di-garda-4-citta-da-vedere/)
+2. [Gegend - Foto 2](https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Panorama_riva-del-garda.jpg/1920px-Panorama_riva-del-garda.jpg) · [Bildquelle](https://commons.wikimedia.org/w/index.php?curid=5918804)
 3. [Gegend - Foto 3](https://cdn.hometogo.net/assets/media/pics/1920_600/6996d41d936cb.jpg) · [Bildquelle](https://www.interhome.com/personal-service/interhome-riva-del-garda-it059/)
 4. [Gegend - Foto 4](https://image.novasol.com/pic/1024/ivg/ivg401_associated_01.jpg) · [Bildquelle](https://www.novasol.nl/vakantiehuis/riva-del-garda-ivg401)
 5. [Gegend - Foto 5](https://www.gardasee.at/images/orte/gallerien/riva/Panorama-von-Riva-del-Garda.jpg) · [Bildquelle](https://www.gardasee.at/30t-690lzygertp/0127bvl-10503.html)
@@ -2407,8 +2407,8 @@ Eine ruhige Alternative zum Großstadttrip: Flussufer, kleine Orte, Burg und Aus
 1. [Gegend - Foto 1](https://cdn.tourradar.com/s3/tour/1500x800/299751_67583aeb86d4a.jpg) · [Bildquelle](https://guidetoeurope.eu/switzerland/best-tours-and-tickets/details/romantic-rhine-and-moselle-with-bruges-2026-2027-18-days-from-basel-to-brussels)
 2. [Gegend - Foto 2](https://www.worldatlas.com/r/w2560-q80/upload/42/92/a3/438/adobestock-305774739.jpeg) · [Bildquelle](https://www.worldatlas.com/cities/8-most-welcoming-small-towns-in-germany-53536.html)
 3. [Gegend - Foto 3](https://www.bybergnordin.se/upload/images/bybergnordin/champagne_mosel/Cochem%20med%20Reichsburg_webb.jpg) · [Bildquelle](https://www.bybergnordin.se/champagne-och-moseldalen-med-eleganta-smaker-och-sagolika-vyer)
-4. [Gegend - Foto 4](https://ds.pressmind.io/images/973e09c57bbfc05079bf8085164cf97c.jpg) · [Bildquelle](https://www.hausemann-mager.de/reise/tf-cochem-federweissenfest/)
-5. [Gegend - Foto 5](https://rare-gallery.com/uploads/posts/790049-Moselle-River-Germany-Rivers-Castles-Coast-Cochem.jpg) · [Bildquelle](https://rare-gallery.com/790049-moselle-river-germany-rivers-castles-coast-cochem.html)
+4. [Gegend - Foto 4](https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Cochem%2C_Moselufer_--_2015_--_7611.jpg/1920px-Cochem%2C_Moselufer_--_2015_--_7611.jpg) · [Bildquelle](https://commons.wikimedia.org/w/index.php?curid=42829154)
+5. [Gegend - Foto 5](https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Cochem%2C_Reichsburg_--_2015_--_7610.jpg/1920px-Cochem%2C_Reichsburg_--_2015_--_7610.jpg) · [Bildquelle](https://commons.wikimedia.org/w/index.php?curid=42829164)
 6. [Unterkunft - Foto 6 (Hotel Traumblick)](https://www.hotel-traumblick.de/files/bilder/inhalt/IMG_0730.jpg) · [Bildquelle](https://www.hotel-traumblick.de/willkommen.html)
 
 ### Planung und Budget
