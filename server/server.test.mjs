@@ -26,10 +26,13 @@ after(async () => {
   }
 })
 
-test('zeigt ohne Sitzung die Datumsabfrage', async () => {
+test('zeigt ohne Sitzung die Abfrage des Geburtsdatums', async () => {
   const response = await fetch(`${baseUrl}/`)
   assert.equal(response.status, 200)
-  assert.match(await response.text(), /type="date"/)
+  const page = await response.text()
+  assert.match(page, /Gib dein Geburtsdatum ein/)
+  assert.match(page, /<label for="date">Geburtsdatum<\/label>/)
+  assert.match(page, /type="date"/)
 })
 
 test('stellt einen inhaltsfreien Healthcheck ohne Sitzung bereit', async () => {
