@@ -110,7 +110,7 @@ export function App() {
   const favorites = destinations.filter((destination) => state.decisions[destination.id] === 'liked')
 
   if (!serverReady) {
-    return <div className="loading-screen"><span className="brand-mark">W</span><p>Deine Auswahl wird geladen …</p></div>
+    return <div className="loading-screen"><span className="brand-mark">A</span><p>Deine Auswahl wird geladen …</p></div>
   }
 
   return (
@@ -122,8 +122,8 @@ export function App() {
       <div className="ambient ambient-two" />
       <header className="topbar">
         <button className="brand" onClick={() => go('home')} aria-label="Zur Begrüßung">
-          <span className="brand-mark">W</span>
-          <span>Wir zwei</span>
+          <span className="brand-mark">A</span>
+          <span>Unser Abenteuer</span>
         </button>
         <span className="trip-note">7 Nächte · flexibel</span>
       </header>
@@ -152,11 +152,11 @@ export function App() {
 function Welcome({ hasProgress, onStart }: { hasProgress: boolean; onStart: () => void }) {
   return (
     <section className="welcome page-enter" aria-labelledby="welcome-title">
-      <div className="eyebrow">Ein Geschenk für dich</div>
+      <div className="eyebrow">Dein Reise-Gutschein</div>
       <div className="hero-stamp" aria-hidden="true"><span>18</span><small>Jahre</small></div>
       <h1 id="welcome-title">Alles Gute<br />zum <em>18.</em></h1>
-      <p className="hero-copy">Kein Ding, das im Regal verstaubt. Sondern Zeit zusammen, Sonne im Gesicht und ein Ort, den <strong>du</strong> aussuchst.</p>
-      <div className="promise"><span>Wir zwei.</span><span>Meer.</span><span>Neue Orte.</span></div>
+      <p className="hero-copy">Kein Ding, das im Regal verstaubt: Dich erwarten Sonne, neue Orte und ein Reiseziel, das <strong>du</strong> selbst aussuchst.</p>
+      <div className="promise"><span>Sonne.</span><span>Meer.</span><span>Neue Orte.</span></div>
       <button className="primary-button" onClick={onStart}>
         {hasProgress ? 'Weiter entdecken' : 'Reiseziele entdecken'} <Icon name="arrow" />
       </button>

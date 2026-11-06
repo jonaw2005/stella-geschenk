@@ -1,4 +1,4 @@
-import { fireEvent, render, screen, waitFor } from '@testing-library/react'
+import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react'
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import { App } from './App'
 
@@ -12,7 +12,21 @@ describe('Swipe-Kartengalerie', () => {
     }))
   })
 
-  afterEach(() => vi.unstubAllGlobals())
+  afterEach(() => {
+    cleanup()
+    vi.unstubAllGlobals()
+  })
+
+  it('begrüßt mit dem neuen Abenteuer-Motto', async () => {
+    render(<App />)
+
+    await waitFor(() => expect(screen.getByText('Unser Abenteuer')).toBeInTheDocument())
+    expect(screen.getByText('Dein Reise-Gutschein')).toBeInTheDocument()
+    expect(screen.getByText(/Dich erwarten Sonne, neue Orte und ein Reiseziel/)).toBeInTheDocument()
+    expect(screen.getByText('Sonne.')).toBeInTheDocument()
+    expect(screen.queryByText(/Wir zwei/i)).not.toBeInTheDocument()
+    expect(screen.queryByText(/Ein Geschenk für dich|Zeit zusammen/i)).not.toBeInTheDocument()
+  })
 
   it('zeigt auf der rechten Bildaktion das nächste Motiv', async () => {
     render(<App />)
