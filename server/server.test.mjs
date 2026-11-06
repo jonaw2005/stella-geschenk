@@ -30,6 +30,7 @@ test('zeigt ohne Sitzung die Abfrage des Geburtsdatums', async () => {
   const response = await fetch(`${baseUrl}/`)
   assert.equal(response.status, 200)
   const page = await response.text()
+  assert.match(page, /<div class="mark">DT<\/div>/)
   assert.match(page, /Gib dein Geburtsdatum ein/)
   assert.match(page, /<label for="date">Geburtsdatum<\/label>/)
   assert.match(page, /type="date"/)

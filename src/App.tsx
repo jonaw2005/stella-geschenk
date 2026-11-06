@@ -110,7 +110,7 @@ export function App() {
   const favorites = destinations.filter((destination) => state.decisions[destination.id] === 'liked')
 
   if (!serverReady) {
-    return <div className="loading-screen"><span className="brand-mark">A</span><p>Deine Auswahl wird geladen …</p></div>
+    return <div className="loading-screen"><span className="brand-mark">DT</span><p>Deine Auswahl wird geladen …</p></div>
   }
 
   return (
@@ -122,7 +122,7 @@ export function App() {
       <div className="ambient ambient-two" />
       <header className="topbar">
         <button className="brand" onClick={() => go('home')} aria-label="Zur Begrüßung">
-          <span className="brand-mark">A</span>
+          <span className="brand-mark">DT</span>
           <span>Unser Abenteuer</span>
         </button>
         <div className="topbar-actions">

@@ -24,13 +24,13 @@ button:focus-visible, [tabindex]:focus-visible, a:focus-visible { outline: 3px s
 .skip-link:focus { transform: none; }
 .storage-warning { position: relative; z-index: 20; background: #643327; color: #fff; padding: 8px 20px; text-align: center; font-size: .85rem; }
 .loading-screen { min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 16px; color: #536466; }
-.loading-screen .brand-mark { width: 56px; height: 56px; font-size: 1.8rem; }
+.loading-screen .brand-mark { width: 56px; height: 56px; font-size: 1.4rem; }
 .ambient { position: fixed; border-radius: 50%; filter: blur(1px); pointer-events: none; opacity: .3; }
 .ambient-one { width: 420px; height: 420px; background: #f3cbb5; top: -220px; right: -220px; }
 .ambient-two { width: 280px; height: 280px; background: #b7d7ce; bottom: 10%; left: -200px; }
 .topbar { max-width: 1060px; height: 72px; margin: 0 auto; padding: 14px 24px; display: flex; justify-content: space-between; align-items: center; position: relative; z-index: 4; }
 .brand { border: 0; background: transparent; display: flex; align-items: center; gap: 10px; font-weight: 700; cursor: pointer; font-size: 1rem; }
-.brand-mark { width: 38px; height: 38px; display: grid; place-items: center; border-radius: 50% 50% 46% 54%; background: var(--coral); color: white; font-family: Georgia, serif; font-style: italic; font-size: 1.3rem; transform: rotate(-6deg); }
+.brand-mark { width: 38px; height: 38px; display: grid; place-items: center; border-radius: 50% 50% 46% 54%; background: var(--coral); color: white; font-family: Georgia, serif; font-style: italic; font-size: 1rem; font-weight: 700; letter-spacing: -.04em; transform: rotate(-6deg); }
 .topbar-actions { display: flex; align-items: center; gap: 16px; }
 .trip-note { color: #617172; font-size: .82rem; font-weight: 600; letter-spacing: .04em; }
 .logout-form { margin: 0; }

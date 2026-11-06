@@ -21,6 +21,7 @@ describe('Swipe-Kartengalerie', () => {
     render(<App />)
 
     await waitFor(() => expect(screen.getByText('Unser Abenteuer')).toBeInTheDocument())
+    expect(screen.getByText('DT')).toHaveClass('brand-mark')
     expect(screen.getByText('Dein Reise-Gutschein')).toBeInTheDocument()
     expect(screen.getByText(/Dich erwarten Sonne, neue Orte und ein Reiseziel/)).toBeInTheDocument()
     expect(screen.getByText('Sonne.')).toBeInTheDocument()
