@@ -136,6 +136,15 @@ export function createAppServer() {
         return response.end()
       }
 
+      if (url.pathname === '/logout' && request.method === 'POST') {
+        const secure = process.env.NODE_ENV === 'production' ? '; Secure' : ''
+        response.writeHead(303, baseHeaders({
+          Location: '/',
+          'Set-Cookie': `reise_session=; Path=/; HttpOnly; SameSite=Strict; Max-Age=0${secure}`,
+        }))
+        return response.end()
+      }
+
       if (!isValidSession(request)) {
         if (url.pathname.startsWith('/api/')) return send(response, 401, JSON.stringify({ error: 'Nicht freigeschaltet' }), { 'Content-Type': 'application/json; charset=utf-8' })
         return send(response, 200, loginPage(), { 'Content-Type': 'text/html; charset=utf-8' })

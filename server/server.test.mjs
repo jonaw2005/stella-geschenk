@@ -52,6 +52,18 @@ test('lehnt ein falsches Datum ab und akzeptiert das richtige', async () => {
   assert.equal(correct.headers.get('location'), '/')
 })
 
+test('löscht beim Abmelden das Sitzungscookie', async () => {
+  const login = await fetch(`${baseUrl}/unlock`, { method: 'POST', body: new URLSearchParams({ date: '2008-11-03' }), redirect: 'manual' })
+  const cookie = (login.headers.get('set-cookie') || '').split(';')[0]
+  const logout = await fetch(`${baseUrl}/logout`, { method: 'POST', headers: { Cookie: cookie }, redirect: 'manual' })
+
+  assert.equal(logout.status, 303)
+  assert.equal(logout.headers.get('location'), '/')
+  assert.match(logout.headers.get('set-cookie') || '', /^reise_session=;/)
+  assert.match(logout.headers.get('set-cookie') || '', /Max-Age=0/)
+  assert.match(logout.headers.get('set-cookie') || '', /HttpOnly/)
+})
+
 test('leitet den bisherigen Hosting-Pfad auf die Hauptdomain um', async () => {
   const response = await fetch(`${baseUrl}/reise/`, { redirect: 'manual' })
   assert.equal(response.status, 308)

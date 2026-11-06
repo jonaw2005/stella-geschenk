@@ -125,7 +125,12 @@ export function App() {
           <span className="brand-mark">A</span>
           <span>Unser Abenteuer</span>
         </button>
-        <span className="trip-note">7 Nächte · flexibel</span>
+        <div className="topbar-actions">
+          <span className="trip-note">7 Nächte · flexibel</span>
+          <form className="logout-form" method="post" action="/logout">
+            <button className="logout-button" type="submit">Abmelden</button>
+          </form>
+        </div>
       </header>
 
       <main id="main">
